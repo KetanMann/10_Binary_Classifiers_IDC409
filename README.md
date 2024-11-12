@@ -2,6 +2,8 @@
 The goal of this project is to develop and evaluate a range of machine learning and deep learning models to classify events as either "Signal" or "Noise." This binary classification problem is crucial in domains such as high-energy physics, finance, and anomaly detection, where identifying meaningful events amidst large volumes of background data is essential.<br> 
 We have used below models for this classification purpose.<be>
 
+# Dataset
+We used a private dataset from the Belle 2 detector. It had 59 features and 70000 examples. 
 ## ALGORITHMS USED <br>
 
 1 Logistic Regression from scratch <br>
