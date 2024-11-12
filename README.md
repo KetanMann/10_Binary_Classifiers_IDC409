@@ -24,4 +24,4 @@ We used a private dataset from the Belle 2 detector. It had 59 features and 7000
 9 ELastic Regularised which is basically using both L1 and L2 regularisation with Logistic regression. <br>
 
 10 LDA
-## Ketan, Shivam and Srujith
+## Regards ~ Ketan, Shivam and Srujith
