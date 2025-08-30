@@ -22,22 +22,22 @@ An optimized distributed gradient boosting library. We used it for its high perf
 **SHAP Feature Importance**
 We used SHAP (SHapley Additive exPlanations) to understand which features were most influential in the XGBoost model's predictions. Features like `R2`, `cosTBTO`, and `KSFWV` were found to be highly important.
 
-![SHAP Feature Importance Plot](uploaded:SHAP_feature_imp.png)
+![SHAP Feature Importance Plot](SHAP_feature_imp.png)
 
 **Hyperparameter Tuning**
 The model's performance was optimized by tuning its hyperparameters. The plot below shows the convergence during the tuning process.
 
-![Hyperparameter Tuning for XGBoost](uploaded:Hyperparam_tuning.png)
+![Hyperparameter Tuning for XGBoost](Hyperparam_tuning.png)
 
 **Decision Tree Visualization**
 To better understand the model's decision-making process, we visualized one of the decision trees from the XGBoost ensemble.
 
-![Decision Tree Visualization](uploaded:image_8b8ad2.png)
+![Decision Tree Visualization](Decision_Tree_Actuall.png)
 
 ### 4. K-Nearest Neighbours with PCA
 We used PCA to reduce the dimensionality of the data before applying the KNN algorithm. The optimal number of neighbors (K) was determined by plotting accuracy against different K values.
 
-![KNN Accuracy vs. Number of Neighbors](uploaded:KNN.png)
+![KNN Accuracy vs. Number of Neighbors](KNN.png)
 
 ### 5. Voting Classifier
 An ensemble model that combines predictions from Logistic Regression, a Decision Tree, and a Support Vector Classifier (SVC) to improve overall accuracy.
@@ -48,10 +48,14 @@ An ensemble learning method that constructs a multitude of decision trees at tra
 ### 7. Decision Tree with PCA
 To visualize the decision boundary, we reduced the feature space to three dimensions using PCA and then trained a Decision Tree classifier.
 
-![3D PCA with Decision Tree Boundary](uploaded:PCA_Decision_Tree.png)
+![3D PCA with Decision Tree Boundary](PCA_Decision_Tree.png)
 
 ### 8. SVC with PCA
 Similar to the above, a Support Vector Classifier was trained on the PCA-reduced data.
+![SVC with Decision Tree Boundary](svc_all.png)
+
+![ROC Curve Comparison 2](download%20(1).png)
+
 
 ### 9. ElasticNet Regularized Logistic Regression
 This model combines both L1 and L2 regularization with Logistic Regression to prevent overfitting and perform feature selection.
@@ -66,12 +70,8 @@ A dimensionality reduction technique that is also used for classification by fin
 ### Dimensionality Reduction Analysis
 Principal Component Analysis (PCA) was used to reduce the number of features. The plot below shows the cumulative explained variance as a function of the number of principal components.
 
-![PCA Explained Variance](uploaded:PCA.png)
+![PCA Explained Variance](PCA.png)
 
-### ROC-AUC Comparison
-The Receiver Operating Characteristic (ROC) curve is a key metric for evaluating binary classifiers. The Area Under the Curve (AUC) provides a single score for model performance. The plots below compare the ROC-AUC scores for several of the models we implemented. An AUC of 1.0 represents a perfect model, while 0.5 represents a model with no discriminative power. Our best models, like XGBoost and the Voting Classifier, achieved high AUC scores.
 
-![ROC Curve Comparison 1](uploaded:download.png)
-![ROC Curve Comparison 2](uploaded:download%20(1).png)
 
 ## Regards ~ Ketan, Shivam and Srujith
