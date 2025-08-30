@@ -15,11 +15,9 @@ A foundational binary classifier implemented from the ground up to understand th
 
 ### 2. Deep Neural Networks (DNN)
 We explored three different DNN architectures, ranging from simple to more complex, to capture non-linear relationships in the data.
-
+![Dropout NN](Train_Val_dropout_NN.png)
 ### 3. XGBoost
 An optimized distributed gradient boosting library. We used it for its high performance and interpretability.
-
-![Dropout NN](Train_Val_dropout_NN.png)
 **SHAP Feature Importance**
 We used SHAP (SHapley Additive exPlanations) to understand which features were most influential in the XGBoost model's predictions. Features like `R2`, `cosTBTO`, and `KSFWV` were found to be highly important.
 
