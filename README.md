@@ -19,11 +19,13 @@ We explored three different DNN architectures, ranging from simple to more compl
 ### 3. XGBoost
 An optimized distributed gradient boosting library. We used it for its high performance and interpretability.
 
+![Dropout NN](Train_Val_dropout_NN.png)
 **SHAP Feature Importance**
 We used SHAP (SHapley Additive exPlanations) to understand which features were most influential in the XGBoost model's predictions. Features like `R2`, `cosTBTO`, and `KSFWV` were found to be highly important.
 
 ![SHAP Feature Importance Plot](SHAP_feature_imp.png)
 
+![SHAP Feature Importance Plot](SHAP_feature_imp_2.png)
 **Hyperparameter Tuning**
 The model's performance was optimized by tuning its hyperparameters. The plot below shows the convergence during the tuning process.
 
